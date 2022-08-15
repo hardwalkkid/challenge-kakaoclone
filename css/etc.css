@@ -1,0 +1,62 @@
+#kakao-wallet {
+  background-color: var(--yellow);
+  width: 100%;
+  box-sizing: border-box;
+  height: 220px;
+  padding: 20px;
+  margin-top: 15px;
+  font-weight: bolder;
+}
+
+.kakao-wallet__column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.kakao-wallet__columnHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kakao-wallet__columnHead span {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.kakao-wallet__columnHead i {
+  margin-right: 5px;
+}
+
+#won {
+  font-size: 20px;
+}
+
+#wallte-cash span {
+  margin-left: 20px;
+}
+
+#etc-list {
+  margin-top: 50px;
+  font-weight: bolder;
+}
+
+.etc-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.etc-column div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.etc-column div span {
+  margin-top: 10px;
+}

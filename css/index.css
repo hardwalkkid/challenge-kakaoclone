@@ -1,0 +1,59 @@
+header h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.log-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.log-in input {
+  width: 80%;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid var(--grey);
+  margin: 10px 0px;
+  font-size: 15px;
+}
+
+form input:focus {
+  border-color: var(--yellow);
+  transition: border-color 0.3s ease-in-out;
+}
+
+form input[type="submit"] {
+  background-color: var(--yellow);
+  border: 1px solid var(--yellow);
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+#find-account-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#find-account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  color: var(--grey);
+}
+
+#sign-in:hover,
+#find-yourId:hover,
+#find-yourPassword:hover {
+  color: black;
+}

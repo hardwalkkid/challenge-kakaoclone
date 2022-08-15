@@ -1,0 +1,91 @@
+#chat-background {
+  background-color: darkcyan;
+  height: 1300vh;
+}
+
+#chat-head div {
+  width: 33%;
+}
+#chat-head,
+.topstatus-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 2;
+  background-color: darkcyan;
+}
+#chat-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 0px 15px;
+}
+
+#chat-head div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#chat-head div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#chat-head div:nth-child(3) i {
+  margin-left: 15px;
+}
+
+.chatting {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#date-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(167, 164, 164);
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  z-index: 1;
+}
+.chat-porfile {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+}
+.chat-porfile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+
+.friend {
+  justify-content: flex-start;
+}
+
+.chat-porfile__textbox {
+  width: 50px;
+  height: 40px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border-bottom-left-radius: 1px;
+  margin: 10px 0px;
+}
+
+.chat-porfile__text h4 {
+  margin-top: 5px;
+}

@@ -1,0 +1,58 @@
+#head-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+
+#head-bar h2 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.head-bar_icon i {
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+@keyframes gearRotation {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes glassScale {
+  0% {
+    scale: 1;
+  }
+
+  20% {
+    scale: 1.5;
+  }
+  40% {
+    scale: 1;
+    transform: rotateZ(0);
+  }
+  60% {
+    transform: rotateZ(45deg);
+  }
+
+  80% {
+    transform: rotateZ(-45deg);
+  }
+  90% {
+    transform: rotateZ(0);
+  }
+}
+
+.fa-gear:hover {
+  animation: gearRotation 2s linear infinite;
+}
+
+.fa-magnifying-glass:hover {
+  animation: glassScale 3s linear infinite;
+}

@@ -1,0 +1,25 @@
+/*import font*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+/*import css/*/
+
+@import "css/reset.css";
+@import "css/index.css";
+@import "css/friends.css";
+@import "css/chats.css";
+@import "css/shopping.css";
+@import "css/etc.css";
+@import "css/chat.css";
+/*import components*/
+@import "components/top-status.css";
+@import "components/head-bar.css";
+@import "components/nav-bar.css";
+@import "components/mobile.css";
+
+@import "variable.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.main-screen {
+  padding: 0px 20px;
+}

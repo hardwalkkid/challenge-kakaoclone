@@ -1,0 +1,67 @@
+#findNewFriend {
+  display: flex;
+  height: 50px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--yellow);
+}
+
+#findNewFriend i {
+  margin-left: 5px;
+}
+
+.user {
+  margin-top: 20px;
+  padding-bottom: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0px;
+  border-top: 1px solid var(--grey);
+  padding-top: 5px;
+}
+
+.user-head h4,
+.user-head i {
+  color: var(--font-grey);
+}
+
+.user__column {
+  display: flex;
+  align-items: center;
+}
+
+.user__column img {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+.user__column span {
+  font-size: 20px;
+}
+
+.otherUser__column {
+  display: flex;
+  align-items: center;
+}
+
+.otherUser__column img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+.otherUser__column .fa-angle-right {
+  margin-left: 5px;
+}

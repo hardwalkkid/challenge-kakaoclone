@@ -1,0 +1,30 @@
+.topstatus-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: silver;
+}
+
+.topstatus-bar__column {
+  width: 33%;
+}
+
+.topstatus-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.topstatus-bar__column:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.topstatus-bar__column:nth-child(3) i {
+  margin-left: 3px;
+}
+
+.topstatus-bar__column:nth-child(3) span {
+  margin-left: 8px;
+}
